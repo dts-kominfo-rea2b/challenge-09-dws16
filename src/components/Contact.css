@@ -1,0 +1,28 @@
+.Contact{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100px;
+  align-items: center;
+  justify-content: start;
+  color: #EAEBED;
+  background-color: #006989;
+  padding: 20px;
+  margin: 20px;
+  width: 600px;
+  border-radius: 30px;
+  box-shadow: 23px 22px 0px -8px rgba(0,0,0,0.5);
+}
+
+.Contact-avatar{
+  margin: 20px 40px;
+}
+
+.Contact-info{
+  flex-basis: 400px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
